@@ -1,0 +1,12 @@
+{
+    "/dist/js/app.js": "/dist/js/app.js",
+    "/dist/css/app.css": "/dist/css/app.css",
+    "/dist/images/favicon-32x32.png": "/dist/images/favicon-32x32.png",
+    "/dist/images/icon-close.svg": "/dist/images/icon-close.svg",
+    "/dist/images/icon-facebook.svg": "/dist/images/icon-facebook.svg",
+    "/dist/images/icon-hamburger.svg": "/dist/images/icon-hamburger.svg",
+    "/dist/images/icon-instagram.svg": "/dist/images/icon-instagram.svg",
+    "/dist/images/icon-pinterest.svg": "/dist/images/icon-pinterest.svg",
+    "/dist/images/icon-twitter.svg": "/dist/images/icon-twitter.svg",
+    "/dist/images/logo.svg": "/dist/images/logo.svg"
+}

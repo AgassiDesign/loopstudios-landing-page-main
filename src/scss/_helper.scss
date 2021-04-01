@@ -1,0 +1,82 @@
+.fluid-type {
+  font-size: $font-size-base;
+
+  @media screen and (min-width: 20rem) {
+    font-size: calc($font-size-base + 0.5 * ((100vw - 20rem) / 60));
+  }
+
+  @media screen and (min-width: 80rem) {
+    font-size: 1.375rem;
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+%site-title { 
+  font-size: 2rem;
+  font-family: 'Josefin Sans';
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.st-m {
+  margin-top: 100px;
+}
+
+.btn {
+  border: 2px solid;
+  font-weight: 700;
+  padding: 12px 2.4rem;
+  background-color: inherit;
+  transition: color 0.5s, background-color 0.5s;
+  color: inherit;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  display: inline-block;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  font-size: 1rem;
+
+  &:hover {
+    color: #fff;
+    background-color: #000;
+    transition: color 0.5s, background-color 0.5s;
+  }
+}
+
+%nav__effect--hover {
+  &::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s,height 0.3s, left 0.3s;
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+  }
+  &:hover::after {
+    width: 100%;
+    left: 0;
+  }
+}
