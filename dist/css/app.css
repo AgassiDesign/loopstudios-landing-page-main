@@ -5036,7 +5036,7 @@ progress {
 @media (min-width: 1024px) {
   .site-footer .site-footer__container {
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 1.8rem;
+    row-gap: 2rem;
   }
 }
 .site-footer .site-footer__container .footer__logo img {
