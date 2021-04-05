@@ -1,5 +1,6 @@
 {
-    "/main.js": "/main.js",
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
     "/images/favicon-32x32.png": "/images/favicon-32x32.png",
     "/images/icon-close.svg": "/images/icon-close.svg",
     "/images/icon-facebook.svg": "/images/icon-facebook.svg",

@@ -4931,12 +4931,12 @@ progress {
 .site-header {
   height: 100vh;
   width: 100%;
-  background: url(/dist/images/mobile/image-hero.jpg) no-repeat left top;
+  background: url(../images/mobile/image-hero.jpg) no-repeat left top;
   background-size: cover;
 }
 @media (min-width: 768px) {
   .site-header {
-    background: url(/dist/images/desktop/image-hero.jpg) no-repeat center top;
+    background: url(../images/desktop/image-hero.jpg) no-repeat center top;
     background-size: cover;
   }
 }
@@ -5036,7 +5036,7 @@ progress {
 @media (min-width: 1024px) {
   .site-footer .site-footer__container {
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 2rem;
+    row-gap: 1.8rem;
   }
 }
 .site-footer .site-footer__container .footer__logo img {
